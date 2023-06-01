@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS TESTE</title>
+</head>
+<body>
+    <body><h1>De qual país você é ?</h1>
+        <input type="text" name="txtvel" id="txtvel">
+        <input type="button" value="Verificar" onclick="resultado()">
+        <div id="res">
+        
+        
+        </div>
+        <script>
+        function resultado() {
+        var txtv = window.document.querySelector('input#txtvel')
+        var res = window.document.querySelector('div#res')
+        var país = String(txtv.value)
+        
+        if (país === 'Brasil') {
+        res.innerHTML = `<p>Você é Brasileiro!</p>`
+        } else {
+        res.innerHTML = `<p>Você é Estrangeiro!</p>`
+        }
+        }
+        </script>
+    
+</body>
+</html>
