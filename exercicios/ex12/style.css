@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+background-color: rgb(122, 150, 251);
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+.centralizado {
+    display: block;
+    margin: auto;
+  }
+
+section{
+    padding: 15px   ;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
