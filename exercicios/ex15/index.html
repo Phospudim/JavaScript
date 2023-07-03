@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Layout</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Vamos contar</h1>
@@ -14,23 +16,21 @@
 
     <section>
         <div id="formulariologin">
-            Inicio:
-            <input type="number" name="contarx" id="contari"> <br>
-            Fim:
-            <input type="number" name="fimx" id="fimi"> <br>
-            Passo:
-            <input type="number" name="passox" id="">
-            
+            <p>Inicio: <input type="number" name="contarx" id="contari"></p>
+            <p>Fim: <input type="number" name="fimx" id="fimi"></p>
+            <p>Passo: <input type="number" name="passox" id="passoi"></p>
+            <p><input type="button" value="contar" onclick="contar()"></p>
         </div>
-        <div>
-            <input type="submit" value="Contar"> <br>
-            Preparando a contagem...
+        <div id="res">
+            <p>Preparando a contagem...</p>
         </div>
     </section>
 
     <footer>
 
     </footer>
-    
+    <script src="script.js"></script>
+
 </body>
+
 </html>
